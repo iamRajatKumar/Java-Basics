@@ -1,4 +1,4 @@
-package OOPs.Classes;
+package OOPs.L1_Classes;
 
 public class Car {
     // private String doors;

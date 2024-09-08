@@ -1,4 +1,4 @@
-package OOPs.GettersSetters;
+package OOPs.L2_GettersSetters;
 
 public class Main {
   public static void main(String[] args) {
