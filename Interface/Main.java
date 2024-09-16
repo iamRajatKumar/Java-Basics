@@ -6,20 +6,24 @@ package Interface;
 public class Main {
     public static void main(String[] args) {
         //Accessing interface in simple
-        // SamsungPhone samsungPhone = new SamsungPhone();
-        // String p =samsungPhone.processor();
-        // System.out.println(p);
-        // System.out.println(samsungPhone.spaceInGB());
+        SamsungPhone samsungPhone = new SamsungPhone();
+        String p =samsungPhone.processor();
+        String gb = samsungPhone.spaceInGB();
+        String mgs = samsungPhone.whatsapp();
+        System.out.println(p +", "+gb+", "+mgs);
+        
 
-        // Iphone iphone = new Iphone();
-        // String s = iphone.processor();
-        // System.out.println(s);
-        // System.out.println(iphone.spaceInGB());
+        Iphone iphone = new Iphone();
+        String s = iphone.processor();
+        String GB = iphone.spaceInGB();
+        String air = iphone.airDrop();
+        System.out.println(s+". "+GB+", "+air);
 
         //Accessing interface using polymorphism
-        Phone p = new SamsungPhone();
-        String s = p.processor();
-        System.out.println(s);
-        System.out.println(p.spaceInGB());
+        // Phone p = new SamsungPhone();
+        // String s = p.processor();
+        // System.out.println(s);
+        // System.out.println(p.spaceInGB());
+        
     }
 }

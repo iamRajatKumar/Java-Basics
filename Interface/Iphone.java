@@ -1,6 +1,6 @@
 package Interface;
 
-public class Iphone implements Phone {
+public class Iphone implements Phone,IOS {
 
     public String processor(){
         return "A15";
@@ -8,8 +8,13 @@ public class Iphone implements Phone {
 
     //@override means we are overriding from base class or implements as interface
     @Override
-    public int spaceInGB() {
-        return 128;
+    public String spaceInGB() {
+        return "128 GB";
+    }
+
+    @Override
+    public String airDrop() {
+        return "Working fine";
     }
     
 }

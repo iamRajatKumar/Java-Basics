@@ -1,14 +1,19 @@
 package Interface;
 
-public class SamsungPhone implements Phone{
+public class SamsungPhone implements Phone,Android{
     
     public String processor(){
         return "1000";
     }
 
     @Override
-    public int spaceInGB() {
-       return 256;
+    public String spaceInGB() {
+       return " GB";
+    }
+
+    @Override
+    public String whatsapp() {
+        return "Hi! there";
     }
 
 }
