@@ -2,9 +2,9 @@ package OOPs.L7_Encapsulation;
 
 public class Person {
    
-    public String name;
-    public int age;
-    public String gender;
+    private String name;
+    private int age;
+    private String gender;
 
     public Person(String name, int age, String gender) {
         this.name = name;
@@ -15,6 +15,24 @@ public class Person {
     @Override
     public String toString() {
         return "Person [name=" + name + ", age=" + age + ", gender=" + gender + "]";
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public boolean setAge(int age) {
+        if(age >= 0 && age <= 100){
+            this.age = age;
+            return true;
+        }else{
+            return false;
+        }
+        
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
 }
