@@ -1,4 +1,4 @@
-package Interface;
+package OOPs.L10_Interface;
 
 public class Iphone implements Phone,IOS {
 

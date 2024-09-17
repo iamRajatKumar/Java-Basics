@@ -1,4 +1,4 @@
-package Interface;
+package OOPs.L10_Interface;
 
 //To restrict the value we use interface in java
 //for being specific we use interface
