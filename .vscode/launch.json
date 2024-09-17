@@ -1,0 +1,301 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TypeCasting",
+            "request": "launch",
+            "mainClass": "Casting.TypeCasting",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "IfElse",
+            "request": "launch",
+            "mainClass": "ConditionalStatement.IfElse",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "SwitchCase",
+            "request": "launch",
+            "mainClass": "ConditionalStatement.SwitchCase",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "SwitchUsingLambdaExpression",
+            "request": "launch",
+            "mainClass": "ConditionalStatement.SwitchUsingLambdaExpression",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "InnerClass.LocalInnerClass.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "InnerClass.NonStaticInnerClass.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Literals",
+            "request": "launch",
+            "mainClass": "JavaLiterals.Literals",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Area",
+            "request": "launch",
+            "mainClass": "JavaMethods.Area",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Loop",
+            "request": "launch",
+            "mainClass": "JavaMethods.Loop",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverloading",
+            "request": "launch",
+            "mainClass": "JavaMethods.MethodOverloading",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverloading2",
+            "request": "launch",
+            "mainClass": "JavaMethods.MethodOverloading2",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Bike",
+            "request": "launch",
+            "mainClass": "JavaMethods.Overriding.Bike",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Java_Variables",
+            "request": "launch",
+            "mainClass": "Java_Variables",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "DoWhileLoop",
+            "request": "launch",
+            "mainClass": "Loops.DoWhileLoop",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "ForEach",
+            "request": "launch",
+            "mainClass": "Loops.ForEach",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "ForLoop",
+            "request": "launch",
+            "mainClass": "Loops.ForLoop",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "LoopsRevisited",
+            "request": "launch",
+            "mainClass": "Loops.LoopsRevisited",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "NestedLoops",
+            "request": "launch",
+            "mainClass": "Loops.NestedLoops",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Pattern",
+            "request": "launch",
+            "mainClass": "Loops.Pattern",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDigits",
+            "request": "launch",
+            "mainClass": "Loops.SumOfDigits",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoop",
+            "request": "launch",
+            "mainClass": "Loops.WhileLoop",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "OOPs.L10_Interface.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "OOPs.L1_Classes.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "OOPs.L2_GettersSetters.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "OOPs.L3_InstanceVariableDefaultVariables.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "OOPs.L4_AddingFunctionalityToJavaClass.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(7)",
+            "request": "launch",
+            "mainClass": "OOPs.L5_Constructor.DefaultConstrutor.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(8)",
+            "request": "launch",
+            "mainClass": "OOPs.L5_Constructor.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(9)",
+            "request": "launch",
+            "mainClass": "OOPs.L5_Inheritance.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(10)",
+            "request": "launch",
+            "mainClass": "OOPs.L6_Composition.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(11)",
+            "request": "launch",
+            "mainClass": "OOPs.L7_Encapsulation.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(12)",
+            "request": "launch",
+            "mainClass": "OOPs.L8_Polymorphism.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main(13)",
+            "request": "launch",
+            "mainClass": "OOPs.L9_Abstraction.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "AirthmeticOperator",
+            "request": "launch",
+            "mainClass": "Operators.AirthmeticOperator",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "AssignmentOperator",
+            "request": "launch",
+            "mainClass": "Operators.AssignmentOperator",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "DecisionMakingOperators",
+            "request": "launch",
+            "mainClass": "Operators.DecisionMakingOperators",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "DecisionMakingwihOperators",
+            "request": "launch",
+            "mainClass": "Operators.DecisionMakingwihOperators",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "TernaryOperator",
+            "request": "launch",
+            "mainClass": "Operators.TernaryOperator",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "PrimitiveDataType",
+            "request": "launch",
+            "mainClass": "PrimitiveDataType",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "Sample",
+            "projectName": "Java Basics_e084ab3"
+        }
+    ]
+}
