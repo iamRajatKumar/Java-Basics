@@ -6,8 +6,11 @@ public class Main {
     Child child = new Child();
     System.out.println(child.x);
     // child.setX(100);
-    Child child2 = new Child(102);
-    System.out.println(child2.x);
+    Child childx = new Child(102);
+    System.out.println(childx.x);
 
+    Child2 child2 = new Child2();
+    child2.India();
+    child2.Usa();
    } 
 }

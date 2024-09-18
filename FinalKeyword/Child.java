@@ -1,6 +1,6 @@
 package FinalKeyword;
 
-public class Child {
+public class Child{
     public final int x;
     //if we iniatialzie the value constructor is not allowd
     public Child() {
@@ -18,5 +18,7 @@ public class Child {
     // public void setX(int x) {
     //     this.x = x;
     // }
+
+    
 
 }
