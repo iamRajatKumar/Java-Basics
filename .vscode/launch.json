@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "FinalKeyword.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "InnerClass.StaticInnerClass.Main",
             "projectName": "Java Basics_e084ab3"
         },
