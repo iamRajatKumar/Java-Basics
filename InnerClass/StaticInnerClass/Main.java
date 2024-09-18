@@ -14,5 +14,6 @@ public class Main {
 
         ToyotaCars toyotaCars = new ToyotaCars();
         toyotaCars.nonStaticInner.Model("Corolla");
+        ToyotaCars.Brand.tagLine();
     }
 }
