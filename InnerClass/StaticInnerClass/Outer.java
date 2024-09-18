@@ -13,4 +13,11 @@ public class Outer {
             System.out.println("Hello there static!");
         }
     }
+
+    public class nonStaticInnerClass {
+        public void nonStaticMessage(){
+            System.out.println("Hello Non Static");
+        }
+        
+    }
 }

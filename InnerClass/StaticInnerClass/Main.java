@@ -6,8 +6,13 @@ public class Main {
         //Outer outer = new Outer();
         //outer.message();
         
-        Outer.Inner.StaticMessage();
+        //Outer.Inner.StaticMessage();
 
         // we want use static class if we have to make the element static
+
+        //System.out.println(ToyotaCars.Brand.brandname);
+
+        ToyotaCars toyotaCars = new ToyotaCars();
+        toyotaCars.nonStaticInner.Model("Corolla");
     }
 }
