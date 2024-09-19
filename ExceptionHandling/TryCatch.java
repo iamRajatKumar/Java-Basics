@@ -1,10 +1,10 @@
 package ExceptionHandling;
 
-public class Main {
+public class TryCatch {
     
     public static void main(String[] args) {
-        Main main = new Main();
-        //main.case1(10,0);
+        TryCatch main = new TryCatch();
+        main.case1(10,0);
         main.case2(10, 0);
         
     }

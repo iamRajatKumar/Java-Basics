@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TryCatch",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.TryCatch",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "ExceptionHandling.Main",
