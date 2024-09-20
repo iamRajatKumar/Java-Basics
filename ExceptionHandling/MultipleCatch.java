@@ -23,5 +23,7 @@ public class MultipleCatch {
         }
         //sequence of catch block matters we can put child class after parent class
         //finally block will always execute
+        //finally have to run at the end of the try catch
+        //we can use finally with try
     }
 }
