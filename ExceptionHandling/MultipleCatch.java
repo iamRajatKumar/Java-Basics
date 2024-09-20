@@ -5,10 +5,10 @@ public class MultipleCatch {
         int y=0,x,z;
         try {
             System.out.println("Before exception");
-            //z= (10*10)/0; 
+            z= (10*10)/0; 
             x = (y = 10*10)/0;
             //y will get updated even x gave exception
-            System.out.println(x);
+            System.out.println(x+""+z);
             System.out.println("after exception "); 
         } catch (ArithmeticException e) {
             System.out.println("Airthmetic Exception");
