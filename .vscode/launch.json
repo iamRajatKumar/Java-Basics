@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MultipleCatch",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.MultipleCatch",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "AirthmeticException",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.AirthmeticException",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "TryCatch",
             "request": "launch",
             "mainClass": "ExceptionHandling.TryCatch",
