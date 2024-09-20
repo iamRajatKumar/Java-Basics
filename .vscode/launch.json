@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CheckedUncheckedException",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.CheckedUncheckedException",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "UserDefinedException",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.UserDefinedException",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "ThrowKeyword",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.ThrowKeyword",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "ThrowsKeyword",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.ThrowsKeyword",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "MultipleCatch",
             "request": "launch",
             "mainClass": "ExceptionHandling.MultipleCatch",
