@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Enum",
+            "request": "launch",
+            "mainClass": "Enum.Enum",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Enum.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "String.Main",
