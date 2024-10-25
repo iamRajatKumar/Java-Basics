@@ -12,6 +12,10 @@ public class Push {
         nums.push(29);
         nums.push(21);
         System.out.println(nums);
+    
+        System.out.println(nums.search(28));
+    
+        
     }
     
 }
