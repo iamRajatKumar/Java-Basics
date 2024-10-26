@@ -18,6 +18,10 @@ public class Main {
         System.out.println("Pop last element"+nums.pop());
         //o/p after poping
         System.out.println(nums);
+        //peek method in stack
+        System.out.println("Peek"+nums.peek());
+        //get method in stack get method show the index value present at that index
+        System.out.println(nums.get(0));
     }
     
 }
