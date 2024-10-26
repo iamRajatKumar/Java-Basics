@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Comparable_Interface",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Comparable_Interface.Comparable_Interface",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "CompareTo",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Comparable_Interface.CompareTo",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "IteratorSortReverse",
             "request": "launch",
             "mainClass": "CollectionFramework.List.IteratorSortReverse",
