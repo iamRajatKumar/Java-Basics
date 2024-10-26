@@ -18,5 +18,11 @@ public class Main {
         // adding a name after a given index in linked list
         names.add(2, "Rajdeep");
         System.out.println(names);
+        // for update we use set
+        names.set(3, "Khushi");
+        System.out.println(names);
+        // remove an element from the list
+        names.remove(0);
+        System.out.println(names);
         }
 }
