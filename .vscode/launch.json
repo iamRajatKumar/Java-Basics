@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IteratorSortReverse",
+            "request": "launch",
+            "mainClass": "CollectionFramework.List.IteratorSortReverse",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "IteratorInCollection",
+            "request": "launch",
+            "mainClass": "CollectionFramework.List.IteratorInCollection",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "Main2",
             "request": "launch",
             "mainClass": "CollectionFramework.LinkedList.Main2",
