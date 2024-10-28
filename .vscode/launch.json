@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ObjectsInCollection",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Comparable_Interface.ObjectsInCollection",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "Comparable_Interface",
             "request": "launch",
             "mainClass": "CollectionFramework.Comparable_Interface.Comparable_Interface",
