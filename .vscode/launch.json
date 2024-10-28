@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Generics",
+            "request": "launch",
+            "mainClass": "Generics.Generics",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "ObjectsInCollection",
             "request": "launch",
             "mainClass": "CollectionFramework.Comparable_Interface.ObjectsInCollection",
