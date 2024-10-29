@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "L3_ParametersTypes",
+            "request": "launch",
+            "mainClass": "Generics.L3_ParametersTypes",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "L2_Generics",
             "request": "launch",
             "mainClass": "Generics.L2_Generics",
