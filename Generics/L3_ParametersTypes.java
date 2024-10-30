@@ -9,17 +9,17 @@ package Generics;
 
 public class L3_ParametersTypes {
     public static void main(String[] args) {
-        Data<Integer, String> data = new Data<>(10, "Rajat");
-        System.out.println("Key : " + data.getKey() + "Value : " + data.getValue());
-        data.display("Test", 50);
+        MyData<Integer, String> MyData = new MyData<>(10, "Rajat");
+        System.out.println("Key : " + MyData.getKey() + "Value : " + MyData.getValue());
+        MyData.display("Test", 50);
     }
 }
 
-class Data<K, V> {
+class MyData<K, V> {
     private K key;
     private V value;
 
-    public Data(K key, V value) {
+    public MyData(K key, V value) {
         this.key = key;
         this.value = value;
     }
@@ -34,7 +34,7 @@ class Data<K, V> {
 
     @Override
     public String toString() {
-        return "Data{" + "key=" + key +
+        return "MyData{" + "key=" + key +
                 ", value" + value + 
                 "}";
     }

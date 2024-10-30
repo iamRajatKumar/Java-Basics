@@ -2,10 +2,11 @@ package Generics;
 import java.util.List;
 import java.util.LinkedList;
 
-class Data<T>{
+//datam is name of class i.e. data because we were getting problems in the prject
+class Datam<T>{
     private T object;
 
-    public Data(T object) {
+    public Datam(T object) {
         this.object = object;
     }
 
@@ -19,24 +20,24 @@ class Data<T>{
 
 public class L2_Generics {
     public static void main(String[] args) {
-        //for multiple datatype we can use object type as in generics
-        // List<Data<Object>> elements = new LinkedList<>();
-        // elements.add(new Data<Object>("Rajat"));
-        // elements.add(new Data<Object>(27));
-        // elements.add(new Data<Object>(9.5));
-        // elements.add(new Data<Object>('D'));
+        //for multiple Datatype we can use object type as in generics
+        // List<Datam<Object>> elements = new LinkedList<>();
+        // elements.add(new Datam<Object>("Rajat"));
+        // elements.add(new Datam<Object>(27));
+        // elements.add(new Datam<Object>(9.5));
+        // elements.add(new Datam<Object>('D'));
 
-        // for(Object data : elements){
-        //     System.out.println(data);
+        // for(Object Datam : elements){
+        //     System.out.println(Datam);
         // }
 
-        //For single data like String will use
-        List<Data<String>> elem = new LinkedList<>();
-        elem.add(new Data<>("Rajat"));
-        elem.add(new Data<>("Sharma"));
+        //For single Data like String will use
+        List<Datam<String>> elem = new LinkedList<>();
+        elem.add(new Datam<>("Rajat"));
+        elem.add(new Datam<>("Sharma"));
         
-        for(Data<String> data : elem){
-            System.out.println(data);
+        for(Datam<String> Datam : elem){
+            System.out.println(Datam);
         }
     }
 }
