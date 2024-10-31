@@ -8,7 +8,7 @@ public class L5_BoundedTypeParams {
    } 
 }
 
-class Datum<K extends Integer,V extends Name>{
+class Datum<K ,V extends Name>{
     
     private K key;
     private V value;
