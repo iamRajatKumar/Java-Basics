@@ -1,7 +1,8 @@
 package Generics;
 
-public class L5_BoundedTypeParams { b    public static void main(String[] args) {
-    Datum<Integer, Name> data = new Datum<>(1, new Name("Deepali"));
+public class L5_BoundedTypeParams {
+   public static void main(String[] args) {
+    Datum<Integer, Name> data = new Datum<>(1, new Name(null));
     System.out.println(data);
     data.display(27.5432, "Rajat");
    } 
