@@ -35,7 +35,7 @@ public class L4_GenericsMethod {
     // new GenericMethod().printListData(list2);
 
     // System.out.println("-----------------------");
-
+    // using wrapper class like String and Integer in Generics
     String[] stringArray = {"Rajat","Deepali","Rajdeep", "Dips"};
     new GenericMethod().printArrayData(stringArray);
     System.out.println("**********************");
