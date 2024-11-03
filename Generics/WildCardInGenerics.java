@@ -45,7 +45,7 @@ public class WildCardInGenerics {
         // System.out.println(list);
         WildCardInGenerics.display(list);
     }
-    public static void display(List list){
+    public static void display(List<?> list){
         for(Object data: list){
             System.out.println(data);
         }
