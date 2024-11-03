@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Set.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "WildCardInGenerics",
             "request": "launch",
             "mainClass": "Generics.WildCardInGenerics",
