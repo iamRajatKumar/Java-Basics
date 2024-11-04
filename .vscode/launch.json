@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HashSetClass",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Set.HashSetClass",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "HashSet",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Set.HashSet",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "OperationsOnSet",
             "request": "launch",
             "mainClass": "CollectionFramework.Set.OperationsOnSet",
