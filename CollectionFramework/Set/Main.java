@@ -12,7 +12,6 @@ public class Main {
         set.add("Raj");
         set.add("Myname");
 
-        
         for (String name : set) {
             System.out.println(name); 
         }
