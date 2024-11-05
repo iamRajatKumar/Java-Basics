@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TreeSetClass",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Set.TreeSetClass",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "LinkedHashSetClass",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Set.LinkedHashSetClass",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "EnumSetClass",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Set.EnumSetClass",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "HashSetClass",
             "request": "launch",
             "mainClass": "CollectionFramework.Set.HashSetClass",
