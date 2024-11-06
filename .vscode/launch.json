@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SetAddAll",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Set.SetAddAll",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "TreeSetClass",
             "request": "launch",
             "mainClass": "CollectionFramework.Set.TreeSetClass",
