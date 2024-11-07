@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MethodsInQueue",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Queue.MethodsInQueue",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "SetAddAll",
             "request": "launch",
             "mainClass": "CollectionFramework.Set.SetAddAll",
