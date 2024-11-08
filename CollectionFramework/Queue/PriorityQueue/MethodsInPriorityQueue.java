@@ -12,5 +12,8 @@ public class MethodsInPriorityQueue {
         prirorityQueue.add("Sharma");
 
         System.out.println(prirorityQueue);
+
+        prirorityQueue.remove("Rajat");
+        System.out.println(prirorityQueue);
     }
 }
