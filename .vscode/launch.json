@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PriorityBlockingQueueClass",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Queue.PriorityBlockingQueueClass",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "IteratingTheQueue",
             "request": "launch",
             "mainClass": "CollectionFramework.Queue.IteratingTheQueue",
