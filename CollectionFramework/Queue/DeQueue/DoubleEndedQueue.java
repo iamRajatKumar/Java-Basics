@@ -11,7 +11,7 @@ public class DoubleEndedQueue {
         deque.add("j");
         deque.add("a");
         deque.add("T");
-
+        // dequeue is used as a queue where we can add elements from both sides
         System.out.println(deque);
     }
 }
