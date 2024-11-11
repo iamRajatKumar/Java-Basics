@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DoubleEndedQueue",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Queue.DeQueue.DoubleEndedQueue",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "PriorityBlockingQueueClass",
             "request": "launch",
             "mainClass": "CollectionFramework.Queue.PriorityBlockingQueueClass",
