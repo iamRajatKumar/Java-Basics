@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Maps.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "DoubleEndedQueue",
             "request": "launch",
             "mainClass": "CollectionFramework.Queue.DeQueue.DoubleEndedQueue",
