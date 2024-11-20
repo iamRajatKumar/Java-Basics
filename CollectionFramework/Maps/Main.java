@@ -10,6 +10,10 @@ public class Main {
         map.put("a2","Deepali");
         map.put("a3","Rajdeep");
         map.put("a9","Rajdeep");
+
+        for(String key: map.keySet()){
+            System.out.println("Key : "+key+" value : "+map.get(key));
+        }
         System.out.println(map);
     }
 }
