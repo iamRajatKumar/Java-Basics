@@ -11,9 +11,12 @@ public class Main {
         map.put("a3","Rajdeep");
         map.put("a9","Rajdeep");
 
-        for(String key: map.keySet()){
-            System.out.println("Key : "+key+" value : "+map.get(key));
+        // for(String key: map.keySet()){
+        //     System.out.println("Key : "+key+" value : "+map.get(key));
+        // }
+        // System.out.println(map);
+        for(Map.Entry<String,String> entry : map.entrySet()){
+            System.out.println("Key: "+entry.getKey()+"value : "+entry.getValue());
         }
-        System.out.println(map);
     }
 }
