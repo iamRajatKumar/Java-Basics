@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "MultiThreading.Test",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "RunnableInterfaceContinues",
+            "request": "launch",
+            "mainClass": "MultiThreading.L2_RunnableInterface.RunnableInterfaceContinues",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "RunnableInterface",
             "request": "launch",
             "mainClass": "MultiThreading.L2_RunnableInterface.RunnableInterface",
