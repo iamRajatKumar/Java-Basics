@@ -1,4 +1,4 @@
-package MultiThreading;
+package MultiThreading.Lecture1;
 
 import static java.lang.Thread.sleep;
 
