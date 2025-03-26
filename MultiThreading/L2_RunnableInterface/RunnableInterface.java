@@ -21,7 +21,7 @@ class MyCounter implements Runnable{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("Thre no: "+threadNo +" and iteration no: "+i);
+            System.out.println("Thread no: "+threadNo +" and iteration no: "+i);
         }    
     }
     
