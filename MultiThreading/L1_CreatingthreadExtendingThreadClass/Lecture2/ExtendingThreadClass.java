@@ -1,4 +1,4 @@
-package MultiThreading.Lecture2;
+package MultiThreading.L1_CreatingthreadExtendingThreadClass.Lecture2;
 
 import static java.lang.Thread.sleep;
 
@@ -28,7 +28,7 @@ class MyCounter extends Thread{
 
 }
 
-public class Lecture2 {
+public class ExtendingThreadClass {
     public static void main(String[] args) throws InterruptedException{
         MyCounter counter1 = new MyCounter(1);
         MyCounter counter2 = new MyCounter(2);

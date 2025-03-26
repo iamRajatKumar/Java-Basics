@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RunnableInterface",
+            "request": "launch",
+            "mainClass": "MultiThreading.L2_RunnableInterface.RunnableInterface",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "Lecture2",
             "request": "launch",
             "mainClass": "MultiThreading.Lecture2.Lecture2",
