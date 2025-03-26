@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lecture1",
+            "request": "launch",
+            "mainClass": "MultiThreading.Lecture1",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "SearchInMaps",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Maps.SearchInMaps",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "CollectionFramework.Maps.Main",
