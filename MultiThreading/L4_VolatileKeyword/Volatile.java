@@ -1,6 +1,7 @@
 package MultiThreading.L4_VolatileKeyword;
 
-public class Main {
+public class Volatile {
+    //to remove cache from thread we use volatile keyword.
     volatile public static int flag = 0;
     public static void main(String[] args) {
         new Thread(new Runnable() {
