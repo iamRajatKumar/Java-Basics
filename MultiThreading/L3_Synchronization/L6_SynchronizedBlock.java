@@ -1,4 +1,4 @@
-package Multithreading;
+package MultiThreading.L3_Synchronization;
 
 class Brackets{
     
