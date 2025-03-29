@@ -1,4 +1,4 @@
-package Multithreading;
+package MultiThreading.L3_Synchronization;
 
 public class L4_SyncronizationUnderConcurrencyControl {
     public static int counter = 0;
