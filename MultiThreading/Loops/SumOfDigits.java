@@ -1,4 +1,4 @@
-package Loops;
+package MultiThreading.Loops;
 
 public class SumOfDigits {
 

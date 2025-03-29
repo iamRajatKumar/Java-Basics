@@ -1,4 +1,4 @@
-package Loops;
+package MultiThreading.Loops;
 
 public class Pattern {
     public static void main(String[] args) {
