@@ -1,4 +1,4 @@
-package MultiThreading.Loops;
+package Loops;
 
 public class LoopsRevisited {
     public static void main(String[] args) {
