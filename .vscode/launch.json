@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Join",
+            "request": "launch",
+            "mainClass": "MultiThreading.L7_Join.Join",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "InterruptJavaMultithreading",
             "request": "launch",
             "mainClass": "MultiThreading.L6_Interrupt.InterruptJavaMultithreading",
