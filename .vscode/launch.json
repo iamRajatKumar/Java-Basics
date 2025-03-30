@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BlockingQueue",
+            "request": "launch",
+            "mainClass": "MultiThreading.L10_BlockingQueue.BlockingQueue",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "CountDownLatchClass",
             "request": "launch",
             "mainClass": "MultiThreading.L9_CountDownLatch.CountDownLatchClass",
