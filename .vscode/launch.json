@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InterruptJavaMultithreading",
+            "request": "launch",
+            "mainClass": "MultiThreading.L6_Interrupt.InterruptJavaMultithreading",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "Wait_Notify",
             "request": "launch",
             "mainClass": "MultiThreading.L5_WaitNotify.Wait_Notify",
