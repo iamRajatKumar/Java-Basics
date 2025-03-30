@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main_Class",
+            "request": "launch",
+            "mainClass": "MultiThreading.L8_ThreadPool.Main_Class",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "Join",
             "request": "launch",
             "mainClass": "MultiThreading.L7_Join.Join",
