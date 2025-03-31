@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DeadLockPreventionWithTryCatch",
+            "request": "launch",
+            "mainClass": "MultiThreading.L12_DeadLock.DeadLockPreventionWithTryCatch",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Deadlock",
+            "request": "launch",
+            "mainClass": "MultiThreading.L12_DeadLock.Deadlock",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "ReEntrantLock",
+            "request": "launch",
+            "mainClass": "MultiThreading.L11_Re_entrantLocks.ReEntrantLock",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "BlockingQueue",
             "request": "launch",
             "mainClass": "MultiThreading.L10_BlockingQueue.BlockingQueue",
