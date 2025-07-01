@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DoubleEveryDay",
+            "request": "launch",
+            "mainClass": "DoubleEveryDay",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "First",
+            "request": "launch",
+            "mainClass": "JavaAssignment.First",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "JavaAssignment.Stream.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Six",
+            "request": "launch",
+            "mainClass": "JavaAssignment.Six",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Fifth",
+            "request": "launch",
+            "mainClass": "JavaAssignment.Fifth",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Second",
+            "request": "launch",
+            "mainClass": "JavaAssignment.Second",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "JavaAssignmentWipro.Main",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "DeadLockPreventionWithTryCatch",
             "request": "launch",
             "mainClass": "MultiThreading.L12_DeadLock.DeadLockPreventionWithTryCatch",

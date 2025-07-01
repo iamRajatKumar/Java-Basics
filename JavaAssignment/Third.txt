@@ -1,0 +1,101 @@
+Q1. What Will be the output of following code? why
+
+public class First {
+    public static void main(String[] args) {
+        Runnable r = () ->{
+            int a = 10;
+            a++;
+            System.out.println(a);
+        };
+        r.run();
+    }
+}
+
+Answer: Explanation:
+Runnable is a functional interface with a single method run(),
+The Lambda expression () -> {...} provides implementation of run(),
+inside lambda expression: integer a is initialized to 10, and then a++ happens which is a is incremented by 1 so value of a is 11 now.
+then outside lambda r.run() method get executed printing the value of a = 11. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2: Given a List<String> of names, write a lambda expression that filters our all the names that dont 
+start with letter "b" and then convert the rest to upper case.
+Explain how Lambda expressions enable this.
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+
+public class Second {
+    public static void main(String[] args) {
+        List<String> names =  Arrays.asList("Rajat"," 'boby","Ramesh", "brad", "ben");
+        List<String> result = names.stream()
+        .filter(name -> name.startsWith("b"))
+        .map(name -> name.toUpperCase())
+        .collect(Collectors.toList());
+
+        System.out.println(result);
+
+    }
+}
+
+Answer: Explanation- Lambda expression is a concise way to represent an Anonymous function
+1. name -> name.startsWith("b") This implements Predicate<String> interface.
+    It filters Stream by including names starts with "b".
+2. name -> name.toUpperCase() this implements Function<String, String> interface.
+    Transforms remaining names to upper case
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Q3. Which of the following functional interfaces can be used with a lambda expression that retruns a boolean ? why ?
+
+a. Runnable
+b. Consumer<T>
+c. Predicate<T>
+d. Function <T,R>
+
+Answer: Option (c) Predicate</T> because it is specifically intended for lambdas that returns boolean values.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Q4. Analyse the following lambda expression and state why or why not it compiles.
+    a. Comparator<String> comp = (s1,s2) -> return s1.length() - s2.length()
+
+Answer: This Expression doesnot compile because lambda uses braces {} and inside braces we will execute the code.
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Q5. What will be printed by following lambda usage?
+    import java.util.Arrays;
+    import java.util.List;
+
+    public class Fifth {
+        public static void main(String[] args) {
+            List<String> list = Arrays.asList("a","bb","ccc");
+            list.forEach(s ->{
+                if(s.length() == 2) return;
+                System.out.println(s);
+            });
+        }
+    }
+
+Answer: outout of the code: a, ccc
+---------------------------------------------------------------------------------------------------
+
+Q6. Given the following code what will be the output.
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Six {
+    public static void main(String[] args) {
+        List<Integer> numbers = Arrays.asList(1,2,3,4,5);
+        int result = numbers.stream()
+                    .filter(n-> n%2 == 0)
+                    .mapToInt(n -> n*2)
+                    .sum();
+        System.out.println(result);
+    }
+}
+
+Answer: Output 12
+
