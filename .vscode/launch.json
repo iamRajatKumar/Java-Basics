@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Not",
+            "request": "launch",
+            "mainClass": "BitwiseOperator.Not",
+            "projectName": "Java Basics_e084ab3"
+        },
+        {
+            "type": "java",
             "name": "DoubleEveryDay",
             "request": "launch",
             "mainClass": "DoubleEveryDay",
