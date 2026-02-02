@@ -9,7 +9,7 @@ public class ProductExceptSelf {
         System.out.println(Arrays.toString(productOfArray(nums)));
     }
 
-    public int[] productExceptSelf1(int[] nums) {
+    public static int[] productOfArray(int[] nums) {
         int n = nums.length;
         int[] result = new int[n];
 
