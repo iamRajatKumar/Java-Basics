@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "array.RemoveDuplicates",
+            "projectName": "Java-Basics_b3c433a2"
+        },
+        {
+            "type": "java",
+            "name": "MainClass",
+            "request": "launch",
+            "mainClass": "Array.MainClass",
+            "projectName": "Java-Basics_b3c433a2"
+        },
+        {
+            "type": "java",
+            "name": "Treemap",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Maps.Treemap",
+            "projectName": "Java-Basics_b3c433a2"
+        },
+        {
+            "type": "java",
+            "name": "SearchInMaps",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Maps.SearchInMaps",
+            "projectName": "Java-Basics_b3c433a2"
+        },
+        {
+            "type": "java",
+            "name": "DoubleEveryDay",
+            "request": "launch",
+            "mainClass": "DoubleEveryDay",
+            "projectName": "Java-Basics_b3c433a2"
+        },
+        {
+            "type": "java",
             "name": "Not",
             "request": "launch",
             "mainClass": "BitwiseOperator.Not",

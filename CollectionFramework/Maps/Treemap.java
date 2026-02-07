@@ -3,7 +3,7 @@ package CollectionFramework.Maps;
 import java.util.TreeMap;
 import java.util.Map;
 
-class Code implements Comparable<Code>{
+class CodeTree implements Comparable<CodeTree>{
     private String sectionNo;
     private String lectureNo;
     public String getSectionNo() {
@@ -16,32 +16,32 @@ class Code implements Comparable<Code>{
 
     
     
-    public Code(String sectionNo, String lectureNo) {
+    public CodeTree(String sectionNo, String lectureNo) {
         this.sectionNo = sectionNo;
         this.lectureNo = lectureNo;
     }
 
     @Override
-    public int compareTo(Code o) {
-        String code1  = sectionNo.concat(lectureNo);
-        String code2 = o.getSectionNo().concat(o.getLectureNo());
-        return code1.compareTo(code2);
+    public int compareTo(CodeTree o) {
+        String CodeTree1  = sectionNo.concat(lectureNo);
+        String CodeTree2 = o.getSectionNo().concat(o.getLectureNo());
+        return CodeTree1.compareTo(CodeTree2);
     }
 
     @Override
     public String toString() {
-        return "Code [sectionNo=" + sectionNo + ", lectureNo=" + lectureNo + "]";
+        return "CodeTree [sectionNo=" + sectionNo + ", lectureNo=" + lectureNo + "]";
     }
     
 }
 
 public class Treemap{
     public static void main(String[] args) {
-        Map<Code, String> map = new TreeMap<Code, String>();
-        map.put(new Code("S11", "11"),"Rajat");
-        map.put(new Code("S11", "22"),"Deepali");
-        map.put(new Code("S11", "00"),"Raj");
-        map.put(new Code("S11", "65"),"Rajdeep");
+        Map<CodeTree, String> map = new TreeMap<CodeTree, String>();
+        map.put(new CodeTree("S11", "11"),"Rajat");
+        map.put(new CodeTree("S11", "22"),"Deepali");
+        map.put(new CodeTree("S11", "00"),"Raj");
+        map.put(new CodeTree("S11", "65"),"Rajdeep");
 
         System.out.println(map);
     }

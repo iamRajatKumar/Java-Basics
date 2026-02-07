@@ -1,4 +1,4 @@
-package BitwiseOperator;
+
 
 public class Not {
     public static void main(String[] args) {
