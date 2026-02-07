@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MoveZeros",
+            "request": "launch",
+            "mainClass": "array.MoveZeros",
+            "projectName": "Java-Basics_b3c433a2"
+        },
+        {
+            "type": "java",
             "name": "RemoveDuplicates",
             "request": "launch",
             "mainClass": "array.RemoveDuplicates",
