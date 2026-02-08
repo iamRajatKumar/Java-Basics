@@ -1,4 +1,4 @@
-package Math;
+package DSA.Math;
 public class PrintAllDivisorGFG {
 
    public static void printDivisor(int n){

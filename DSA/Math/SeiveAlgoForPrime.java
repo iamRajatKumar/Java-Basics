@@ -1,4 +1,4 @@
-package Math;
+package DSA.Math;
 import java.util.Arrays;
 
 public class SeiveAlgoForPrime {

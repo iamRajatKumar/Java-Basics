@@ -1,3 +1,5 @@
+package DSA.BitwiseOperator;
+
 public class BitwiseAnd {
     public static void main(String args[]){
         int x = 3;
